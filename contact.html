@@ -1,9 +1,10 @@
+
 <!doctype html>
 <html lang="en" id="home">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spiral | Home</title>
+    <title>Spiral | Contact</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap"
       rel="stylesheet"
@@ -27,32 +28,53 @@
 
     <main>
 
-<div
-  class="hero mask"
-></div>
+<h1>Contact Us</h1>
 
-<section id="about">
-  <h1 style="text-align: center">About</h1>
-  <p>
-    The only company, focused on both environmental and personal health impact.
-    We value the well-being of your family and the future of our shared
-    environment above all else. We meticulously curate ethically sourced,
-    eco-friendly, and crafted with care to protect the people you cherish most
-    and the Earth they call home. With every purchase, you're not just buying,
-    you’re choosing to nurture your children’s tomorrow, to heal what’s been
-    harmed, and to stand for something bigger than yourself. This is more than
-    shopping; it’s a movement. Join our family and be part of the shift toward.
-    Impact the planet, Shape the future, Be Timeless.
-  </p>
-  <h2>Mission</h2>
-  <p>Service beyond transactions, for a better tomorrow.</p>
+<form action="https://formspree.io/f/movlpqqg" method="POST">
+  <label for="name">Your Name *</label>
+  <input
+    type="text"
+    id="name"
+    name="name"
+    required
+    maxlength="100"
+    pattern="[A-Za-zÀ-ÿ ,.'-]{2,100}"
+    placeholder="John Doe"
+  />
 
-  <h2>Vision</h2>
-  <p>Stand tall with the place we all proudly share, the place we call home.</p>
+  <label for="company">Company</label>
+  <input
+    type="text"
+    id="company"
+    name="company"
+    maxlength="100"
+    placeholder="Your Company Name"
+  />
 
-  <h2>Tagline</h2>
-  <p>From ours to yours</p>
-</section>
+  <label for="email">Your Email *</label>
+  <input
+    type="email"
+    id="email"
+    name="email"
+    required
+    maxlength="254"
+    placeholder="you@example.com"
+  />
+
+  <label for="message">Message *</label>
+  <textarea
+    id="message"
+    name="message"
+    rows="5"
+    required
+    minlength="10"
+    maxlength="2000"
+    placeholder="How can we help you?"
+  ></textarea>
+
+  <button type="submit">Submit</button>
+</form>
+
 </main>
 
     <footer>

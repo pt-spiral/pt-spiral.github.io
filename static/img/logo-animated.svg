@@ -1,0 +1,170 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 900 900"
+  width="500"
+  height="500"
+>
+  <defs>
+    <style>
+      .spin,
+      .float {
+        transform-box: fill-box;
+        transform-origin: center;
+      }
+
+      .spin {
+        animation: rot 7.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+      }
+      @keyframes rot {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .float {
+        animation: bob 2.6s cubic-bezier(0, 0.22, 0.99, 1) infinite alternate;
+      }
+      @keyframes bob {
+        from {
+          transform: translateY(-15px);
+        }
+        to {
+          transform: translateY(15px);
+        }
+      }
+    </style>
+  </defs>
+
+  <g class="spin" id="circles">
+    <circle
+      style="
+        opacity: 1;
+        fill: #000000;
+        fill-opacity: 1;
+        fill-rule: nonzero;
+        stroke: #000000;
+        stroke-width: 0.872647;
+        stroke-opacity: 1;
+      "
+      id="circle26"
+      cy="190.0685"
+      cx="496.63849"
+      r="69.288177"
+    />
+    <ellipse
+      style="
+        opacity: 1;
+        fill: #000000;
+        fill-opacity: 1;
+        fill-rule: nonzero;
+        stroke: #000000;
+        stroke-width: 1.16656;
+        stroke-opacity: 1;
+      "
+      id="ellipse26"
+      cx="666.23267"
+      cy="346.345"
+      rx="62.333405"
+      ry="60.26672"
+    />
+    <circle
+      style="
+        opacity: 1;
+        fill: #000000;
+        fill-opacity: 1;
+        fill-rule: nonzero;
+        stroke: #000000;
+        stroke-width: 0.853636;
+        stroke-opacity: 1;
+      "
+      id="circle27"
+      cx="637.1925"
+      cy="574.4765"
+      r="56.536682"
+    />
+    <circle
+      style="
+        opacity: 1;
+        fill: #000000;
+        fill-opacity: 1;
+        fill-rule: nonzero;
+        stroke: #000000;
+        stroke-width: 0.866952;
+        stroke-opacity: 1;
+      "
+      id="circle28"
+      cx="440.98901"
+      cy="694.07898"
+      r="49.566525"
+    />
+    <ellipse
+      style="
+        opacity: 1;
+        fill: #000000;
+        fill-opacity: 1;
+        fill-rule: nonzero;
+        stroke: #000000;
+        stroke-width: 0.938397;
+        stroke-opacity: 1;
+      "
+      id="ellipse28"
+      cx="236.67499"
+      cy="620.34601"
+      rx="45.567799"
+      ry="45.567802"
+    />
+    <circle
+      style="
+        opacity: 1;
+        fill: #000000;
+        fill-opacity: 1;
+        fill-rule: nonzero;
+        stroke: #000000;
+        stroke-width: 0.903585;
+        stroke-opacity: 1;
+      "
+      id="circle29"
+      cx="173.1665"
+      cy="443.7005"
+      r="34.311707"
+    />
+    <circle
+      style="
+        opacity: 1;
+        fill: #000000;
+        fill-opacity: 1;
+        fill-rule: nonzero;
+        stroke: #000000;
+        stroke-width: 1.13219;
+        stroke-opacity: 1;
+      "
+      id="circle30"
+      cx="246.7915"
+      cy="245.23151"
+      r="85.291405"
+    />
+  </g>
+
+  <path
+    class="float"
+    style="
+      display: inline;
+      opacity: 1;
+      fill: #000000;
+      fill-opacity: 1;
+      fill-rule: nonzero;
+      stroke: #000000;
+      stroke-width: 0.234833;
+      stroke-opacity: 1;
+    "
+    d="m 480.23292,477.62231 c -3.90411,-0.4214 -8.25061,-2.8382 -12.19102,-6.77861 -2.68331,-2.68332 -3.2697,-3.68133 -11.1786,-19.02554 -8.6945,-16.86838 -19.15802,-36.80676 -21.29459,-40.57715 -0.56562,-0.99814 -0.76786,-1.18983 -1.02777,-0.97412 -0.82972,0.68861 -5.49606,8.21724 -22.47908,36.26753 -13.12894,21.68465 -14.17653,23.28907 -16.82277,25.76462 -1.99297,1.86443 -3.67797,2.9689 -5.89656,3.86503 -5.44374,2.19882 -11.68626,1.3735 -15.59955,-2.06242 -2.75977,-2.42311 -4.26296,-7.53357 -3.31094,-11.2563 0.53549,-2.09395 1.35448,-3.44637 16.91662,-27.93515 7.51008,-11.81795 15.2769,-24.09465 17.2596,-27.28154 4.05283,-6.51433 4.91213,-7.73327 7.34203,-10.41489 6.59756,-7.28104 14.60189,-11.14877 23.07251,-11.14877 6.09938,0 11.67155,1.84382 16.85851,5.57846 2.73714,1.97076 6.76582,6.25214 9.00349,9.56825 7.93841,11.76429 27.84086,48.24823 31.8339,58.35593 0.86982,2.20181 0.98566,2.73014 1.08223,4.93587 0.0635,1.45087 -0.007,3.02672 -0.17188,3.81899 -0.44832,2.15955 -1.6893,4.36409 -3.3594,5.9678 -2.77286,2.66264 -6.0767,3.75945 -10.03673,3.33201 z"
+    id="path26"
+  />
+
+  <defs>
+    <radialGradient id="g" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+</svg>

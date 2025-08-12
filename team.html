@@ -1,0 +1,393 @@
+
+<!doctype html>
+<html lang="en" id="home">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spiral | Team</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html#home" aria-label="Go to Home">
+          <div class="logo mask"></div>
+        </a>
+        <ul>
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const openers = document.querySelectorAll(".open-modal");
+    const modals = document.querySelectorAll(".modal");
+
+    openers.forEach((link) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const targetId = link.getAttribute("href").substring(1);
+        const modal = document.getElementById(targetId);
+        if (modal) {
+          modal.style.display = "flex";
+          modal.classList.add("show");
+          modal.setAttribute("aria-hidden", "false");
+          document.body.style.overflow = "hidden";
+
+          const focusable = modal.querySelector(
+            "button, [tabindex]:not([tabindex='-1'])",
+          );
+          if (focusable) focusable.focus();
+        }
+      });
+    });
+
+    document.querySelectorAll(".close-modal").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const modal = btn.closest(".modal");
+        closeModal(modal);
+      });
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        modals.forEach((modal) => {
+          if (modal.classList.contains("show")) {
+            closeModal(modal);
+          }
+        });
+      }
+    });
+
+    modals.forEach((modal) => {
+      modal.addEventListener("click", (e) => {
+        const bio = modal.querySelector(".bio");
+        if (!bio.contains(e.target)) {
+          closeModal(modal);
+        }
+      });
+    });
+
+    function closeModal(modal) {
+      modal.classList.remove("show");
+      modal.setAttribute("aria-hidden", "true");
+      setTimeout(() => {
+        document.body.style.overflow = "";
+        modal.style.display = "none";
+      }, 300);
+    }
+  });
+</script>
+
+<h1>Team</h1>
+<section class="team">
+  <article class="team-member">
+    <a
+      href="#modal-ptrikha"
+      class="open-modal"
+      role="button"
+      aria-haspopup="dialog"
+      aria-controls="modal-ptrikha"
+    >
+      <h2>Prashant Trikha</h2>
+      <p class="role">President</p>
+      <div>
+        <img loading="lazy" src="static/img/ptrikha.jpeg" alt="Prashant Trikha" />
+      </div>
+    </a>
+
+    <div
+      id="modal-ptrikha"
+      class="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="ptrikha-title"
+      aria-hidden="true"
+    >
+      <div class="bio">
+        <h3 id="ptrikha-title">
+          Prashant Trikha
+          <button class="close-modal" aria-label="Close modal">&times;</button>
+        </h3>
+        <p>Very good at drinking games</p>
+      </div>
+    </div>
+  </article>
+
+  <article class="team-member">
+    <a
+      href="#modal-olpierre"
+      class="open-modal"
+      role="button"
+      aria-haspopup="dialog"
+      aria-controls="modal-olpierre"
+    >
+      <h2>Oliver Lubin Pierre</h2>
+      <p class="role">Operations Manager</p>
+      <div>
+        <img loading="lazy" src="static/img/olpierre.jpeg" alt="Oliver Lubin Pierre" />
+      </div>
+    </a>
+    <div
+      id="modal-olpierre"
+      class="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="olpierre-title"
+      aria-hidden="true"
+    >
+      <div class="bio">
+        <h3 id="olpierre-title">
+          Oliver Lubin Pierre<button
+            class="close-modal"
+            aria-label="Close modal"
+          >
+            &times;
+          </button>
+        </h3>
+        <p>
+          Olivier L. Pierre is a results-driven and empathetic leader with a
+          passion for impact. A former NCAA Division I soccer player and a
+          graduate in Econometrics from Clark University, he brings a
+          competitive edge and sharp analytical thinking to our organization.
+        </p>
+
+        <p>
+          As Operations Manager at National Grid, he leads with precision and
+          purpose; moreover, his personal interest uplifts communities through
+          his philanthropy lens. He brings the same level of dedication and
+          integrity—whether he’s streamlining operations or advocating for
+          social change.
+        </p>
+
+        <p>
+          Known for challenging convention, Olivier brings bold thinking,
+          unwavering focus, and the high-performance mindset of an F1 enthusiast
+          to everything he does.
+        </p>
+      </div>
+    </div>
+  </article>
+
+  <article class="team-member">
+    <a
+      href="#modal-iatikhonov"
+      class="open-modal"
+      role="button"
+      aria-haspopup="dialog"
+      aria-controls="modal-iatikhonov"
+    >
+      <h2>Ivan Tikhonov</h2>
+      <p class="role">IT Lead</p>
+      <div><img loading="lazy" src="static/img/iatikhonov.jpeg" alt="Ivan Tikhonov" /></div>
+    </a>
+    <div
+      id="modal-iatikhonov"
+      class="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="iatikhonov-title"
+      aria-hidden="true"
+    >
+      <div class="bio">
+        <h3 id="iatikhonov-title">
+          Ivan Tikhonov<button class="close-modal" aria-label="Close modal">
+            &times;
+          </button>
+        </h3>
+        <p></p>
+      </div>
+    </div>
+  </article>
+
+  <article class="team-member">
+    <a
+      href="#modal-gptrikha"
+      class="open-modal"
+      role="button"
+      aria-haspopup="dialog"
+      aria-controls="modal-gptrikha"
+    >
+      <h2>Gyan Prakash Trikha</h2>
+      <p class="role">Legal Advisor</p>
+      <div>
+        <img loading="lazy" src="static/img/gptrikha.jpeg" alt="Gyan Prakash Trikha" />
+      </div>
+    </a>
+    <div
+      id="modal-gptrikha"
+      class="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="gptrikha-title"
+      aria-hidden="true"
+    >
+      <div class="bio">
+        <h3 id="gptrikha-title">
+          Gyan Prakash Trikha<button
+            class="close-modal"
+            aria-label="Close modal"
+          >
+            &times;
+          </button>
+        </h3>
+        <p>
+          Our Legal Advisor is a retired officer of the State Bank of India with
+          over 35 years of service, specializing in banking and commercial law.
+          His deep interest in legal matters is reflected in his personal
+          library of over 150 books, including legal lexicons and landmark
+          judgments affecting the banking sector.
+        </p>
+
+        <p>
+          He has successfully guided clients through complex cases in both the
+          High Courts and Supreme Court, where his legal insights often proved
+          decisive. Known for his commitment to social justice, he has offered
+          pro bono legal support to many from disadvantaged backgrounds.
+        </p>
+
+        <p>
+          His rare blend of experience, knowledge, and integrity makes him a key
+          legal pillar of our organization.
+        </p>
+      </div>
+    </div>
+  </article>
+
+  <article class="team-member">
+    <a
+      href="#modal-mleslie"
+      class="open-modal"
+      role="button"
+      aria-haspopup="dialog"
+      aria-controls="modal-mleslie"
+    >
+      <h2>Maxwell Leslie</h2>
+      <p class="role">Business Processes</p>
+      <div><img loading="lazy" src="static/img/mleslie.jpeg" alt="Maxwell Leslie" /></div>
+    </a>
+    <div
+      id="modal-mleslie"
+      class="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="mleslie-title"
+      aria-hidden="true"
+    >
+      <div class="bio">
+        <h3 id="mleslie-title">
+          Maxwell Leslie<button class="close-modal" aria-label="Close modal">
+            &times;
+          </button>
+        </h3>
+        <p></p>
+      </div>
+    </div>
+  </article>
+
+  <article class="team-member">
+    <a
+      href="#modal-dptrikha"
+      class="open-modal"
+      role="button"
+      aria-haspopup="dialog"
+      aria-controls="modal-dptrikha"
+    >
+      <h2>Dr. Pushali Trikha</h2>
+      <p class="role">Chief Executive Officer</p>
+      <div><img loading="lazy" src="static/img/dptrikha.jpeg" alt="Pushali Trikha" /></div>
+    </a>
+    <div
+      id="modal-dptrikha"
+      class="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="dptrikha-title"
+      aria-hidden="true"
+    >
+      <div class="bio">
+        <h3 id="dptrikha-title">
+          Pushali Trikha<button class="close-modal" aria-label="Close modal">
+            &times;
+          </button>
+        </h3>
+        <p>
+          Pushali Trikha is a renowned mathematician and researcher in the field
+          of applied mathematics. She holds a Doctorate in Chaos Theory from
+          Jamia Millia Islamia and earned both her Bachelor of Science in
+          Mathematics (Honors) and Master of Science in Applied Mathematics from
+          Delhi University.
+        </p>
+
+        <p>
+          Pushali has distinguished herself through a series of academic
+          achievements, including an All India Rank of 7 and a GATE rank of 25.
+          She is also a GRE holder. With over 128 research papers published in
+          prestigious international journals such as Springer, Wiley, and MAA,
+          her work has made a lasting impact on the global mathematics
+          community.
+        </p>
+
+        <p>
+          With more than nine years of research experience and over twelve years
+          of teaching, Pushali is recognized for her deep subject mastery,
+          analytical rigor, and commitment to advancing the understanding of
+          complex systems through mathematics.
+        </p>
+      </div>
+    </div>
+  </article>
+
+  <article class="team-member">
+    <a
+      href="#modal-tgandhi"
+      class="open-modal"
+      role="button"
+      aria-haspopup="dialog"
+      aria-controls="modal-tgandhi"
+    >
+      <h2>Tanisha Gandhi</h2>
+      <p class="role">Graphic Manager</p>
+    </a>
+    <div
+      id="modal-tgandhi"
+      class="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="tgandhi-title"
+      aria-hidden="true"
+    >
+      <div class="bio">
+        <h3 id="tgandhi-title">
+          Tanisha Gandhi<button class="close-modal" aria-label="Close modal">
+            &times;
+          </button>
+        </h3>
+        <p></p>
+      </div>
+    </div>
+  </article>
+</section>
+</main>
+
+    <footer>
+      <ul>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <hr />
+      <p>2025 &copy; Spiral</p>
+    </footer>
+  </body>
+</html>
