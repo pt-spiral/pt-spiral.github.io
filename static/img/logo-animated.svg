@@ -26,10 +26,10 @@
       }
       @keyframes bob {
         from {
-          transform: translateY(-15px);
+          transform: translateY(0px);
         }
         to {
-          transform: translateY(15px);
+          transform: translateY(0px);
         }
       }
     </style>
