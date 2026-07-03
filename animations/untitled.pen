@@ -1,0 +1,2631 @@
+{
+  "version": "2.9",
+  "children": [
+    {
+      "type": "frame",
+      "id": "QWCJB",
+      "x": 0,
+      "y": 0,
+      "name": "Spiral Landing Page",
+      "width": 1440,
+      "fill": "$bg-cream",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "BzJnL",
+          "name": "Navigation Bar",
+          "width": "fill_container",
+          "fill": "$bg-cream",
+          "padding": [
+            16,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "3dMbJ",
+              "name": "logoGroup",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jztox",
+                  "name": "spiralMark",
+                  "fill": "$burgundy",
+                  "content": "𝕊",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 24,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "ljN5n",
+                  "name": "logoText",
+                  "fill": "$burgundy",
+                  "content": "Spiral",
+                  "fontFamily": "Sacramento",
+                  "fontSize": 26
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "yp0k0",
+              "name": "navLinks",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JJVzZ",
+                  "name": "link1",
+                  "fill": "$burgundy",
+                  "content": "Home",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "q8oqP",
+                  "name": "link2",
+                  "fill": "$burgundy",
+                  "content": "Pillars",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "zlbXe",
+                  "name": "link3",
+                  "fill": "$burgundy",
+                  "content": "Team",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "ozsmQ",
+                  "name": "link4",
+                  "fill": "$burgundy",
+                  "content": "Careers",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "kMOiI",
+                  "name": "link5",
+                  "fill": "$burgundy",
+                  "content": "Partner",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "Oe0h8",
+                  "name": "storeWrap",
+                  "width": 90,
+                  "height": 40,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "w7cWo",
+                      "x": 0,
+                      "y": 2,
+                      "name": "storeBtn",
+                      "fill": "$burgundy",
+                      "cornerRadius": 20,
+                      "padding": [
+                        10,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZRzsW",
+                          "name": "storeTxt",
+                          "fill": "$cream-text",
+                          "content": "Store",
+                          "fontFamily": "EB Garamond",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "B2sqq",
+                      "x": 56,
+                      "y": -6,
+                      "name": "soonBadge",
+                      "fill": "$burgundy-80",
+                      "cornerRadius": 10,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "G1FoB",
+                          "name": "soonTxt",
+                          "fill": "$cream-text",
+                          "content": "Soon",
+                          "fontFamily": "EB Garamond",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "3pivr",
+          "name": "Hero Section",
+          "clip": true,
+          "width": "fill_container",
+          "height": 900,
+          "fill": "$burgundy",
+          "cornerRadius": 40,
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "BORmZ",
+              "x": 0,
+              "y": 0,
+              "name": "Hero Background Image",
+              "metadata": {
+                "type": "unsplash",
+                "username": "divazus",
+                "link": "https://unsplash.com/@divazus",
+                "author": "Divazus Fabric Store"
+              },
+              "width": 1440,
+              "height": 900,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1642761733235-b3f7f56f251c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzNTgzNDh8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "ZOP4h",
+              "x": 0,
+              "y": 0,
+              "name": "Gradient Overlay",
+              "width": 1440,
+              "height": 900,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#4c000000",
+                    "position": 0
+                  },
+                  {
+                    "color": "#4c000040",
+                    "position": 0.3
+                  },
+                  {
+                    "color": "#4c0000CC",
+                    "position": 0.7
+                  },
+                  {
+                    "color": "#4c0000F0",
+                    "position": 1
+                  }
+                ]
+              }
+            },
+            {
+              "type": "frame",
+              "id": "4iRtK",
+              "x": 370,
+              "y": 320,
+              "name": "Hero Content",
+              "width": 700,
+              "layout": "vertical",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wbv8N",
+                  "name": "Hero Headline",
+                  "fill": "$cream-text",
+                  "content": "Incessantly Living",
+                  "textAlign": "center",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 92,
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "line",
+                  "id": "zEqjg",
+                  "name": "Decorative Line",
+                  "width": 60,
+                  "height": 0,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$cream-text"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "Ssgpa",
+                  "name": "Hero Tagline",
+                  "fill": "#f4f2eaB3",
+                  "content": "A purpose-driven marketplace for conscious commerce",
+                  "textAlign": "center",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 20
+                }
+              ]
+            },
+            {
+              "type": "icon_font",
+              "id": "WXH1Z",
+              "x": 708,
+              "y": 850,
+              "name": "Scroll Indicator",
+              "opacity": 0.6,
+              "width": 24,
+              "height": 24,
+              "iconFontName": "chevron-down",
+              "iconFontFamily": "lucide",
+              "fill": "$cream-text"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "yGPjs",
+          "name": "Shopping Redefined",
+          "width": "fill_container",
+          "height": 800,
+          "fill": "$white",
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "kd4bI",
+              "x": 0,
+              "y": 0,
+              "name": "BG Pattern",
+              "width": 1440,
+              "height": 800,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#f4f2ea",
+                    "position": 0
+                  },
+                  {
+                    "color": "#ebe8dc",
+                    "position": 1
+                  }
+                ]
+              },
+              "layout": "none"
+            },
+            {
+              "type": "ellipse",
+              "id": "Wsfjr",
+              "x": 100,
+              "y": 80,
+              "name": "Deco Circle 1",
+              "opacity": 0.4,
+              "width": 280,
+              "height": 280,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#4c000010"
+              }
+            },
+            {
+              "type": "ellipse",
+              "id": "zffsF",
+              "x": 1060,
+              "y": 440,
+              "name": "Deco Circle 2",
+              "opacity": 0.4,
+              "width": 320,
+              "height": 320,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#4c000010"
+              }
+            },
+            {
+              "type": "ellipse",
+              "id": "x0skW",
+              "x": 60,
+              "y": 500,
+              "name": "Deco Circle 3",
+              "opacity": 0.3,
+              "width": 180,
+              "height": 180,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#4c000008"
+              }
+            },
+            {
+              "type": "rectangle",
+              "id": "Cm3iS",
+              "x": 200,
+              "y": 60,
+              "name": "Deco Line V",
+              "fill": "#4c000008",
+              "width": 1,
+              "height": 680
+            },
+            {
+              "type": "rectangle",
+              "id": "kxhM0",
+              "x": 1240,
+              "y": 60,
+              "name": "Deco Line V2",
+              "fill": "#4c000008",
+              "width": 1,
+              "height": 680
+            },
+            {
+              "type": "frame",
+              "id": "J1hqE",
+              "x": 240,
+              "y": 120,
+              "name": "Content Block",
+              "width": 960,
+              "layout": "vertical",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "z8IQ0",
+                  "name": "topLabel",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "EexK3",
+                      "name": "tl1",
+                      "fill": "$burgundy-50",
+                      "width": 48,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "WNs2Q",
+                      "name": "tl2",
+                      "fill": "$burgundy-50",
+                      "content": "THE SPIRAL MANIFESTO",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 5
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "1tdOR",
+                      "name": "tl3",
+                      "fill": "$burgundy-50",
+                      "width": 48,
+                      "height": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Z0ABY",
+                  "name": "spacer1",
+                  "width": 10,
+                  "height": 48
+                },
+                {
+                  "type": "frame",
+                  "id": "FNyRU",
+                  "name": "line1",
+                  "gap": 16,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Smc0B",
+                      "name": "w1a",
+                      "fill": "$burgundy",
+                      "content": "Shopping",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 72,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ellPX",
+                      "name": "w1b",
+                      "opacity": 0.7,
+                      "fill": "$burgundy",
+                      "content": "Redefined",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 72,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vuQ2z",
+                      "name": "w1c",
+                      "fill": "$burgundy",
+                      "content": "Itself",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 72,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KnFdq",
+                  "name": "spacer2",
+                  "width": 10,
+                  "height": 12
+                },
+                {
+                  "type": "frame",
+                  "id": "0FuDi",
+                  "name": "decoMid",
+                  "gap": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "2pNVL",
+                      "name": "dm1",
+                      "fill": "$burgundy",
+                      "width": 120,
+                      "height": 1
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "SoimN",
+                      "name": "dmDot",
+                      "fill": "$burgundy",
+                      "width": 6,
+                      "height": 6
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "Z6lJV",
+                      "name": "dm2",
+                      "fill": "$burgundy",
+                      "width": 120,
+                      "height": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "q5WiN",
+                  "name": "spacer3",
+                  "width": 10,
+                  "height": 12
+                },
+                {
+                  "type": "frame",
+                  "id": "BN9TS",
+                  "name": "line2",
+                  "gap": 14,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IMGbi",
+                      "name": "w2a",
+                      "fill": "$burgundy",
+                      "content": "It's not Just a",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 64,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oHDzj",
+                      "name": "w2b",
+                      "opacity": 0.7,
+                      "fill": "$burgundy",
+                      "content": "Transaction",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 64,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "x1o0p",
+                  "name": "spacer4",
+                  "width": 10,
+                  "height": 20
+                },
+                {
+                  "type": "text",
+                  "id": "6ts5X",
+                  "name": "line3",
+                  "fill": "$burgundy",
+                  "content": "It is Better for You",
+                  "textAlign": "center",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 58,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "ANM5X",
+                  "name": "spacer5",
+                  "width": 10,
+                  "height": 8
+                },
+                {
+                  "type": "text",
+                  "id": "Ykd1D",
+                  "name": "line4",
+                  "fill": "$burgundy",
+                  "content": "For your Better Tomorrow",
+                  "textAlign": "center",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 58,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "gLKpm",
+                  "name": "spacer6",
+                  "width": 10,
+                  "height": 40
+                },
+                {
+                  "type": "frame",
+                  "id": "15ACT",
+                  "name": "botDeco",
+                  "gap": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "PvBFL",
+                      "name": "bd1",
+                      "fill": "$burgundy-50",
+                      "width": 80,
+                      "height": 1
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "gKsUX",
+                      "name": "bdDot",
+                      "fill": "$burgundy-50",
+                      "width": 5,
+                      "height": 5
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "1G74I",
+                      "name": "bd2",
+                      "fill": "$burgundy-50",
+                      "width": 80,
+                      "height": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "m82Xi",
+              "x": 160,
+              "y": 140,
+              "name": "Deco Quote Left",
+              "fill": "#4c000008",
+              "content": "“",
+              "fontFamily": "EB Garamond",
+              "fontSize": 200,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "zAQNW",
+              "x": 1180,
+              "y": 480,
+              "name": "Deco Quote Right",
+              "fill": "#4c000008",
+              "content": "”",
+              "fontFamily": "EB Garamond",
+              "fontSize": 200,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "riY71",
+          "name": "Pillars Section",
+          "width": "fill_container",
+          "fill": "$bg-cream",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Mi6E7",
+              "name": "Pillars Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "0GGeC",
+                  "name": "headerLabel",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "89HwB",
+                      "name": "hl1",
+                      "fill": "$burgundy-50",
+                      "width": 48,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "GBP3B",
+                      "name": "hl2",
+                      "fill": "$burgundy-50",
+                      "content": "OUR PILLARS",
+                      "fontFamily": "Francy",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 4
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "aMJUV",
+                      "name": "hl3",
+                      "fill": "$burgundy-50",
+                      "width": 48,
+                      "height": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ZVaBA",
+                  "name": "headerTitle",
+                  "fill": "$burgundy",
+                  "content": "What We Stand For",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 48,
+                  "fontStyle": "italic"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lSVup",
+              "name": "Pillar Cards",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "cxwpb",
+                  "name": "Pillar 1 - Born in NYC",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "shaipal",
+                    "link": "https://unsplash.com/@shaipal",
+                    "author": "Shai Pal"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 480,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1642266116733-832d23c249f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzNTgxMTR8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 20,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "3ThPb",
+                      "x": 0,
+                      "y": 240,
+                      "name": "Overlay 1",
+                      "width": 300,
+                      "height": 240,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 0,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#4c000000",
+                            "position": 0
+                          },
+                          {
+                            "color": "#4c0000DD",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        24,
+                        28
+                      ],
+                      "justifyContent": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fYr79",
+                          "name": "num1",
+                          "fill": "#f4f2ea80",
+                          "content": "01",
+                          "fontFamily": "EB Garamond",
+                          "fontSize": 14,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "BB6Bg",
+                          "name": "name1",
+                          "fill": "$cream-text",
+                          "content": "Born in\nNYC",
+                          "lineHeight": 1.1,
+                          "fontFamily": "EB Garamond",
+                          "fontSize": 32
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CBd5U",
+                  "name": "Pillar 2 - Carbon Neutral",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "bendenengelsen",
+                    "link": "https://unsplash.com/@bendenengelsen",
+                    "author": "Ben den Engelsen"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 480,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1774358125043.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 20,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "EtW3s",
+                      "x": 0,
+                      "y": 240,
+                      "name": "Overlay 2",
+                      "width": 300,
+                      "height": 240,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 0,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#4c000000",
+                            "position": 0
+                          },
+                          {
+                            "color": "#4c0000DD",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        24,
+                        28
+                      ],
+                      "justifyContent": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "d7Eaq",
+                          "name": "num2",
+                          "fill": "#f4f2ea80",
+                          "content": "02",
+                          "fontFamily": "EB Garamond",
+                          "fontSize": 14,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "4O5al",
+                          "name": "name2",
+                          "fill": "$cream-text",
+                          "content": "Carbon\nNeutral",
+                          "lineHeight": 1.1,
+                          "fontFamily": "EB Garamond",
+                          "fontSize": 32
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Z8XMk",
+                  "name": "Pillar 3 - Zero Emission",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "danzai_ph",
+                    "link": "https://unsplash.com/@danzai_ph",
+                    "author": "zai Dan"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 480,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1774358146354.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 20,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "khs5F",
+                      "x": 0,
+                      "y": 240,
+                      "name": "Overlay 3",
+                      "width": 300,
+                      "height": 240,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 0,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#4c000000",
+                            "position": 0
+                          },
+                          {
+                            "color": "#4c0000DD",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        24,
+                        28
+                      ],
+                      "justifyContent": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "dNNHx",
+                          "name": "num3",
+                          "fill": "#f4f2ea80",
+                          "content": "03",
+                          "fontFamily": "EB Garamond",
+                          "fontSize": 14,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "xsWPj",
+                          "name": "name3",
+                          "fill": "$cream-text",
+                          "content": "Zero\nEmission",
+                          "lineHeight": 1.1,
+                          "fontFamily": "EB Garamond",
+                          "fontSize": 32
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "s215R",
+                  "name": "Pillar 4 - Food Insecurity",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "renjunn",
+                    "link": "https://unsplash.com/@renjunn",
+                    "author": "Jun Ren"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 480,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1774358171901.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 20,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CC5SK",
+                      "x": 0,
+                      "y": 240,
+                      "name": "Overlay 4",
+                      "width": 300,
+                      "height": 240,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 0,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#4c000000",
+                            "position": 0
+                          },
+                          {
+                            "color": "#4c0000DD",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        24,
+                        28
+                      ],
+                      "justifyContent": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ALb4s",
+                          "name": "num4",
+                          "fill": "#f4f2ea80",
+                          "content": "04",
+                          "fontFamily": "EB Garamond",
+                          "fontSize": 14,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "0sgwX",
+                          "name": "name4",
+                          "fill": "$cream-text",
+                          "content": "Food\nInsecurity",
+                          "lineHeight": 1.1,
+                          "fontFamily": "EB Garamond",
+                          "fontSize": 32
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tTgtQ",
+          "name": "Gallery Section",
+          "width": "fill_container",
+          "fill": "$white",
+          "layout": "vertical",
+          "gap": 80,
+          "padding": [
+            100,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "wzNfp",
+              "name": "Top Caption",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "i9eIp",
+                  "name": "topLabel",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "ZTAsa",
+                      "name": "topLine",
+                      "fill": "$burgundy-50",
+                      "width": 40,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "wco9a",
+                      "name": "topLabelText",
+                      "fill": "$burgundy-50",
+                      "content": "WHAT WE DO",
+                      "fontFamily": "Francy",
+                      "fontSize": 12,
+                      "fontWeight": "500",
+                      "letterSpacing": 3
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "cFdVQ",
+                  "name": "topDesc",
+                  "fill": "$burgundy-80",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "While we are working, our focus is to create meaningful, high-quality experiences that go beyond expectations—driven by excellence, care, and attention to detail.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Francy",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bKKZK",
+              "name": "Top Image Row",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "x2FoF",
+                  "name": "Image 1",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "mtsjrdl",
+                    "link": "https://unsplash.com/@mtsjrdl",
+                    "author": "mtsjrdl"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 320,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1585302397954-5187611c156e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzNTc3NTJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 16
+                },
+                {
+                  "type": "frame",
+                  "id": "b8F4Z",
+                  "name": "Image 2",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "markuswinkler",
+                    "link": "https://unsplash.com/@markuswinkler",
+                    "author": "Markus Winkler"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 320,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1656911545349-3a775d54f2b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzNTc3NTJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 16
+                },
+                {
+                  "type": "frame",
+                  "id": "LaWEB",
+                  "name": "Image 3",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "eladepure",
+                    "link": "https://unsplash.com/@eladepure",
+                    "author": "Ela De Pure"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 320,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1773187973415-2c85a99aaa82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzNTc3NTJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 16
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qkNMb",
+              "name": "Bottom Caption",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SXPhQ",
+                  "name": "botLabel",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uTAqm",
+                      "name": "botLabelText",
+                      "fill": "$burgundy-50",
+                      "content": "WHO WE ARE",
+                      "fontFamily": "Francy",
+                      "fontSize": 12,
+                      "fontWeight": "500",
+                      "letterSpacing": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xoKa0",
+              "name": "Bottom Caption",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nXQeE",
+                  "name": "botLabel",
+                  "width": "fit_content(0)",
+                  "height": "fit_content(20)",
+                  "gap": 12,
+                  "alignItems": "center"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iwmSs",
+              "name": "Bottom Caption",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SbBP5",
+                  "name": "botLabel",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KBwfJ",
+                      "name": "botLabelText",
+                      "fill": "$burgundy-50",
+                      "content": "WHO WE ARE",
+                      "fontFamily": "Francy",
+                      "fontSize": 12,
+                      "fontWeight": "500",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "4rhqH",
+                      "name": "botLineEl",
+                      "fill": "$burgundy-50",
+                      "width": 40,
+                      "height": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "VmiGv",
+                  "name": "botDesc",
+                  "fill": "$burgundy-80",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "When we are not working, our focus shifts to giving back—supporting society by addressing food insecurity across the five boroughs with compassion and purpose.",
+                  "lineHeight": 1.6,
+                  "textAlign": "right",
+                  "fontFamily": "Francy",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LsEqQ",
+              "name": "Bottom Image Row",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "aQWcb",
+                  "name": "Image 4",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "kwami_heude_50",
+                    "link": "https://unsplash.com/@kwami_heude_50",
+                    "author": "Kwami Fattah Al Sissi"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 320,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1763570645098-371723617ee9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzNTc3NzZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 16
+                },
+                {
+                  "type": "frame",
+                  "id": "dvYiP",
+                  "name": "Image 5",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "markuswinkler",
+                    "link": "https://unsplash.com/@markuswinkler",
+                    "author": "Markus Winkler"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 320,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1695370992816-3c5bb771e4b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzNTc3Nzd8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 16
+                },
+                {
+                  "type": "frame",
+                  "id": "owkFB",
+                  "name": "Image 6",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "davidkristianto",
+                    "link": "https://unsplash.com/@davidkristianto",
+                    "author": "David Kristianto"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 320,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1760611656615-db3fad24a314?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzNTc3Nzd8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "3tDeB",
+          "name": "Partner With Us",
+          "width": "fill_container",
+          "fill": "$bg-cream",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": 120,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "dmGan",
+              "name": "partnerHeading",
+              "fill": "$burgundy",
+              "content": "PARTNER WITH US",
+              "textAlign": "center",
+              "fontFamily": "Francy",
+              "fontSize": 36,
+              "fontWeight": "500",
+              "letterSpacing": 4
+            },
+            {
+              "type": "rectangle",
+              "id": "3TQyY",
+              "name": "divLine",
+              "fill": "$burgundy-50",
+              "width": 60,
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "XjwKt",
+              "name": "Partner Body",
+              "width": 768,
+              "layout": "vertical",
+              "gap": 28,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hiiXK",
+                  "name": "partnerP1",
+                  "fill": "$burgundy-60",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Looking to grow your business while making a meaningful impact? Partner with Spiral — a purpose-driven marketplace built for brands that care about quality, people, and the planet. Our partner support and technology are designed to help you scale responsibly and sustainably.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "A3nU2",
+                  "name": "partnerP2",
+                  "fill": "$burgundy-60",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "By selling on Spiral, you join a community focused on conscious commerce — creating value not just through products, but through experiences that go beyond expectations.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "3NnR9",
+              "name": "Apply Button",
+              "fill": "$burgundy",
+              "cornerRadius": 100,
+              "padding": [
+                16,
+                48
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "0HmxE",
+                  "name": "ctaText",
+                  "fill": "$cream-text",
+                  "content": "APPLY",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                  "letterSpacing": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FysZJ",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$burgundy",
+          "layout": "vertical",
+          "padding": 48,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "H9jTX",
+              "name": "footerText",
+              "fill": "$cream-text",
+              "content": "© 2026 Spiral. All rights reserved.",
+              "textAlign": "center",
+              "fontFamily": "EB Garamond",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "uVPLE",
+      "x": 1640,
+      "y": 0,
+      "name": "Spiral Careers Page",
+      "width": 1440,
+      "fill": "$bg-cream",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "NXXCO",
+          "name": "nav",
+          "width": "fill_container",
+          "fill": "$bg-cream",
+          "padding": [
+            16,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "yqQEX",
+              "name": "logoGroup",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bYTet",
+                  "name": "spiralMark",
+                  "fill": "$burgundy",
+                  "content": "𝕊",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 24,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "ayPYG",
+                  "name": "logoText",
+                  "fill": "$burgundy",
+                  "content": "Spiral",
+                  "fontFamily": "Sacramento",
+                  "fontSize": 26
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "rztcc",
+              "name": "navLinks",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bPIEI",
+                  "name": "link1",
+                  "fill": "$burgundy",
+                  "content": "Home",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "Aq9sP",
+                  "name": "link2",
+                  "fill": "$burgundy",
+                  "content": "Pillars",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "REsR9",
+                  "name": "link3",
+                  "fill": "$burgundy",
+                  "content": "Team",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "4VDWR",
+                  "name": "link4",
+                  "fill": "$burgundy",
+                  "content": "Careers",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "LvxE6",
+                  "name": "link5",
+                  "fill": "$burgundy",
+                  "content": "Partner",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "BeYdL",
+                  "name": "storeWrap",
+                  "width": 90,
+                  "height": 40,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "20EIr",
+                      "x": 0,
+                      "y": 2,
+                      "name": "storeBtn",
+                      "fill": "$burgundy",
+                      "cornerRadius": 20,
+                      "padding": [
+                        10,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ehr9d",
+                          "name": "storeTxt",
+                          "fill": "$cream-text",
+                          "content": "Store",
+                          "fontFamily": "EB Garamond",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QRQRt",
+                      "x": 56,
+                      "y": -6,
+                      "name": "soonBadge",
+                      "fill": "$burgundy-80",
+                      "cornerRadius": 10,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "sxrDe",
+                          "name": "soonTxt",
+                          "fill": "$cream-text",
+                          "content": "Soon",
+                          "fontFamily": "EB Garamond",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pKHu5",
+          "name": "Screen 1 - Departments",
+          "width": "fill_container",
+          "height": 760,
+          "fill": "$bg-cream",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            60,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "69jeh",
+              "name": "heading",
+              "fill": "$burgundy",
+              "content": "Careers",
+              "textAlign": "center",
+              "fontFamily": "EB Garamond",
+              "fontSize": 132,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "OwW8r",
+              "name": "desc",
+              "fill": "$burgundy-60",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Born in New York City, made for the people who move it forward.\nWe're a small team shaped by the grit, warmth, and creativity of NYC,\nbuilding for the community that inspires us every day.\nIf you care deeply, think boldly, and love the energy of this city, you'll feel at home here.",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "EB Garamond",
+              "fontSize": 22,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "gvBVL",
+              "name": "pillRow",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "k3Kj7",
+                  "name": "p1",
+                  "fill": "$burgundy",
+                  "cornerRadius": 100,
+                  "padding": [
+                    16,
+                    40
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "htuft",
+                      "name": "p1t",
+                      "fill": "$cream-text",
+                      "content": "Management",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ahVka",
+                  "name": "p2",
+                  "fill": "$burgundy",
+                  "cornerRadius": 100,
+                  "padding": [
+                    16,
+                    40
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WAlJv",
+                      "name": "p2t",
+                      "fill": "$cream-text",
+                      "content": "IT",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IuiCa",
+                  "name": "p3",
+                  "fill": "$burgundy",
+                  "cornerRadius": 100,
+                  "padding": [
+                    16,
+                    40
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lbOzw",
+                      "name": "p3t",
+                      "fill": "$cream-text",
+                      "content": "Accounting",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NEr6d",
+                  "name": "p4",
+                  "fill": "$burgundy",
+                  "cornerRadius": 100,
+                  "padding": [
+                    16,
+                    40
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "1RiAS",
+                      "name": "p4t",
+                      "fill": "$cream-text",
+                      "content": "Design",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "MGSRx",
+          "name": "Divider 1",
+          "fill": "#4c000012",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "UvmbR",
+          "name": "Content Area",
+          "width": "fill_container",
+          "fill": "$bg-cream",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            60,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "VYWwR",
+              "name": "deptPill",
+              "fill": "$burgundy",
+              "cornerRadius": 100,
+              "padding": [
+                12,
+                32
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EoB97",
+                  "name": "deptText",
+                  "fill": "$cream-text",
+                  "content": "Management",
+                  "fontFamily": "EB Garamond",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "9BDl9",
+              "name": "cardsRow",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Twopu",
+                  "name": "cardLeft",
+                  "width": 280,
+                  "height": 360,
+                  "fill": "$burgundy",
+                  "cornerRadius": 24,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#f4f2ea26"
+                  },
+                  "layout": "vertical",
+                  "padding": 28
+                },
+                {
+                  "type": "frame",
+                  "id": "xKVWP",
+                  "name": "cardMid",
+                  "width": 280,
+                  "height": 360,
+                  "fill": "$burgundy",
+                  "cornerRadius": 24,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#f4f2ea26"
+                  },
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Yc06y",
+                      "name": "posLabel",
+                      "fill": "#f4f2ea80",
+                      "content": "Position",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "sSScn",
+                      "name": "titleText",
+                      "fill": "$cream-text",
+                      "content": "Intern",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dfPoy",
+                      "name": "locText",
+                      "fill": "#f4f2ea80",
+                      "content": "New York City",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "3GmSr",
+                      "name": "spacer1",
+                      "width": "fill_container",
+                      "height": 20
+                    },
+                    {
+                      "type": "text",
+                      "id": "AgBmM",
+                      "name": "descLabel",
+                      "fill": "#f4f2ea99",
+                      "content": "Description —",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BfzMr",
+                      "name": "spacerMid",
+                      "width": "fill_container",
+                      "height": "fill_container"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jwqBV",
+                      "name": "reqLabel",
+                      "fill": "#f4f2ea99",
+                      "content": "Requirement —",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nrERH",
+                  "name": "cardRight",
+                  "width": 280,
+                  "height": 360,
+                  "fill": "$burgundy",
+                  "cornerRadius": 24,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#f4f2ea26"
+                  },
+                  "layout": "vertical",
+                  "padding": 28
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "1QYv3",
+              "name": "timeline",
+              "width": 600,
+              "height": 20,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "hxzVu",
+                  "x": 0,
+                  "y": 9,
+                  "name": "tLine",
+                  "fill": "$burgundy",
+                  "width": 600,
+                  "height": 2
+                },
+                {
+                  "type": "ellipse",
+                  "id": "7kviY",
+                  "x": 0,
+                  "y": 5,
+                  "name": "tick1",
+                  "fill": "$burgundy",
+                  "width": 10,
+                  "height": 10
+                },
+                {
+                  "type": "ellipse",
+                  "id": "GGqV4",
+                  "x": 148,
+                  "y": 5,
+                  "name": "tick2",
+                  "fill": "$burgundy",
+                  "width": 10,
+                  "height": 10
+                },
+                {
+                  "type": "ellipse",
+                  "id": "Hyq6Y",
+                  "x": 296,
+                  "y": 5,
+                  "name": "tick3",
+                  "fill": "$burgundy",
+                  "width": 10,
+                  "height": 10
+                },
+                {
+                  "type": "ellipse",
+                  "id": "evmcF",
+                  "x": 444,
+                  "y": 5,
+                  "name": "tick4",
+                  "fill": "$burgundy",
+                  "width": 10,
+                  "height": 10
+                },
+                {
+                  "type": "ellipse",
+                  "id": "Zfa9d",
+                  "x": 590,
+                  "y": 5,
+                  "name": "tick5",
+                  "fill": "$burgundy",
+                  "width": 10,
+                  "height": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "tF0bc",
+          "name": "Divider 2",
+          "fill": "#4c000012",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "xrPEc",
+          "name": "Job Detail Content",
+          "width": "fill_container",
+          "fill": "$white",
+          "gap": 60,
+          "padding": [
+            60,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "wyHKR",
+              "name": "Left Column",
+              "width": 480,
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wAG9B",
+                  "name": "breadcrumb",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uTJyg",
+                      "name": "bc1",
+                      "fill": "$burgundy-50",
+                      "content": "Careers",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "0t9OZ",
+                      "name": "bc2",
+                      "fill": "$burgundy-50",
+                      "content": "/",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uSULU",
+                      "name": "bc3",
+                      "fill": "$burgundy-50",
+                      "content": "Management",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "2M1HJ",
+                      "name": "bc4",
+                      "fill": "$burgundy-50",
+                      "content": "/",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "stLS3",
+                      "name": "bc5",
+                      "fill": "$burgundy",
+                      "content": "Intern",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FfIPy",
+                  "name": "Active Card",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$burgundy",
+                  "cornerRadius": 24,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#f4f2ea20"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "snINB",
+                      "name": "posLabel",
+                      "fill": "#f4f2ea60",
+                      "content": "Position",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "R7xuK",
+                      "name": "posTitle",
+                      "fill": "$cream-text",
+                      "content": "Intern",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PvE5e",
+                      "name": "posLoc",
+                      "fill": "#f4f2ea60",
+                      "content": "New York City",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Zo3E8",
+                      "name": "spacer1",
+                      "width": 10,
+                      "height": 20
+                    },
+                    {
+                      "type": "text",
+                      "id": "luNzb",
+                      "name": "descLabel",
+                      "fill": "#f4f2ea70",
+                      "content": "Description —",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Awb7B",
+                      "name": "descText",
+                      "fill": "#f4f2ea90",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Support the Management team by assisting with day-to-day operations, research, and cross-functional projects. You'll gain hands-on experience in a purpose-driven startup environment.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "AYjYg",
+                      "name": "spacerMid",
+                      "width": 10,
+                      "height": "fill_container"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FMRva",
+                      "name": "reqLabel",
+                      "fill": "#f4f2ea70",
+                      "content": "Requirement —",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Z6vt2",
+                      "name": "reqText",
+                      "fill": "#f4f2ea90",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Currently enrolled in or recently graduated from a relevant program. Strong communication skills and a passion for conscious commerce.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "8itSD",
+              "name": "Right Column",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "u9nLD",
+                  "name": "rightHeader",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "N4e6D",
+                      "name": "rhTitle",
+                      "fill": "$burgundy",
+                      "content": "Management Intern",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 32,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fLdL3",
+                      "name": "applyBtn",
+                      "fill": "$burgundy",
+                      "cornerRadius": 100,
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GceoV",
+                          "name": "applyTxt",
+                          "fill": "$cream-text",
+                          "content": "APPLY",
+                          "fontFamily": "EB Garamond",
+                          "fontSize": 13,
+                          "fontWeight": "600",
+                          "letterSpacing": 3
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "soIMx",
+                          "name": "applyIcon",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "arrow-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "$cream-text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Ge0ds",
+                  "name": "metaRow",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "l40MS",
+                      "name": "metaLoc",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "6ue9U",
+                          "name": "locIcon",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "map-pin",
+                          "iconFontFamily": "lucide",
+                          "fill": "$burgundy-50"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ru8Te",
+                          "name": "locText",
+                          "fill": "$burgundy-50",
+                          "content": "New York City",
+                          "fontFamily": "EB Garamond",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "n6wtp",
+                      "name": "metaType",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "CsqQo",
+                          "name": "typeIcon",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "clock-3",
+                          "iconFontFamily": "lucide",
+                          "fill": "$burgundy-50"
+                        },
+                        {
+                          "type": "text",
+                          "id": "sdJBI",
+                          "name": "typeText",
+                          "fill": "$burgundy-50",
+                          "content": "Full-time",
+                          "fontFamily": "EB Garamond",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "glW0q",
+                      "name": "metaDept",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "9NWUU",
+                          "name": "deptIcon",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "briefcase",
+                          "iconFontFamily": "lucide",
+                          "fill": "$burgundy-50"
+                        },
+                        {
+                          "type": "text",
+                          "id": "89107",
+                          "name": "deptText",
+                          "fill": "$burgundy-50",
+                          "content": "Management",
+                          "fontFamily": "EB Garamond",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "CmOF0",
+                  "name": "divider1",
+                  "fill": "#4c000012",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "ceGTg",
+                  "name": "About Section",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gaklG",
+                      "name": "aboutTitle",
+                      "fill": "$burgundy",
+                      "content": "About the Role",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HkGQY",
+                      "name": "aboutText",
+                      "fill": "$burgundy-80",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "We're looking for a curious and driven intern to join our Management team. In this role, you'll work directly with leadership on strategic initiatives that shape the future of conscious commerce.\n\nYou'll help coordinate cross-functional projects, conduct market research, and contribute to building internal processes that scale. This is a hands-on opportunity to learn how a purpose-driven startup operates from the inside.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "enBw4",
+                  "name": "divider2",
+                  "fill": "#4c000012",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "YEF1q",
+                  "name": "Requirements Section",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gRSM5",
+                      "name": "reqTitle",
+                      "fill": "$burgundy",
+                      "content": "Requirements",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kgX64",
+                      "name": "reqList",
+                      "fill": "$burgundy-80",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  Currently enrolled in or recently graduated from a relevant program\n•  Strong written and verbal communication skills\n•  Interest in sustainability, e-commerce, or social impact\n•  Ability to manage multiple tasks in a fast-paced environment\n•  Proficiency in Google Workspace or similar tools\n•  Based in or willing to relocate to New York City",
+                      "lineHeight": 1.8,
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "nDIbY",
+                  "name": "divider3",
+                  "fill": "#4c000012",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "KnL5e",
+                  "name": "What We Offer",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nut90",
+                      "name": "offerTitle",
+                      "fill": "$burgundy",
+                      "content": "What We Offer",
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gr8lL",
+                      "name": "offerList",
+                      "fill": "$burgundy-80",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  Mentorship from experienced leadership\n•  Exposure to all areas of a growing startup\n•  Employee discount on Spiral marketplace\n•  Flexible hybrid work schedule\n•  Monthly wellness stipend\n•  Community volunteer days",
+                      "lineHeight": 1.8,
+                      "fontFamily": "EB Garamond",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "YQuyN",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$burgundy",
+          "layout": "vertical",
+          "padding": 48,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "3WTGH",
+              "name": "ftText",
+              "fill": "$cream-text",
+              "content": "© 2026 Spiral. All rights reserved.",
+              "textAlign": "center",
+              "fontFamily": "EB Garamond",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "bg-cream": {
+      "type": "color",
+      "value": "#f4f2ea"
+    },
+    "burgundy": {
+      "type": "color",
+      "value": "#4c0000"
+    },
+    "burgundy-50": {
+      "type": "color",
+      "value": "#4c000080"
+    },
+    "burgundy-60": {
+      "type": "color",
+      "value": "#4c000099"
+    },
+    "burgundy-80": {
+      "type": "color",
+      "value": "#4c0000CC"
+    },
+    "cream-text": {
+      "type": "color",
+      "value": "#f4f2ea"
+    },
+    "white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    }
+  }
+}
